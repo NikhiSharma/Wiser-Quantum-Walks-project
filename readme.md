@@ -9,8 +9,8 @@
 
 | Name | WISER Enrollment ID |
 |---|---|
-| <Member 1 Full Name> | <WISER-XXXX> |
-| <Member 2 Full Name> | <WISER-XXXX> |
+| Nikhila Yeturi | <WISER-XXXX> |
+| Pranav | <WISER-XXXX> |
 | <Member 3 Full Name> | <WISER-XXXX> |
 
 ---
