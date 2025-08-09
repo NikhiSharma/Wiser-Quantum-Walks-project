@@ -82,7 +82,7 @@ The goal of this project was to design and simulate a scalable **Quantum Galton 
 ## Project Presentation Deck
 
 - Deck (PDF or Google Slides): **[Link to presentation]**  
-  *(If in-repo, place it under `/docs/` and link like `docs/presentation.pdf`.)*
+  please open the PDF file in the repo and access the ppt
 
 ---
 
