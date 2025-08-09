@@ -16,7 +16,7 @@
 ---
 
 ## Problem & Goal  
-The goal of this project was to design and simulate a scalable **Quantum Galton Board** framework that can reproduce and compare different target probability distributions — Gaussian/binomial, exponential, and quantum walk — while analyzing performance under realistic noise conditions. The challenge included validating the quantum implementation against classical distributions, quantifying similarity using robust statistical metrics, and demonstrating a minimal yet reproducible workflow that integrates visualization, performance evaluation, and Monte Carlo–style statistical analysis.  
+The goal of this project was to design and simulate a scalable **Quantum Galton Board** framework that can reproduce and compare different target probability distributions, Gaussian/binomial, exponential, and quantum walk while analyzing performance under realistic noise conditions. The challenge included validating the quantum implementation against classical distributions, quantifying similarity using robust statistical metrics, and demonstrating a minimal yet reproducible workflow that integrates visualization, performance evaluation, and Monte Carlo–style statistical analysis.  
 
 ---
 
@@ -78,25 +78,6 @@ The goal of this project was to design and simulate a scalable **Quantum Galton 
 - Minimal plots provided clear side-by-side probability comparisons.  
 - Summary tables made it easy to compare statistical metrics across tasks.  
 - Monte Carlo sampling was used implicitly in generating experimental distributions, ensuring statistical stability for distance metrics.
-
-
-**Approach.**  
-Summarize the approach for each task:
-- **Task 1–2 (Baseline Galton board):** One-hot position encoding, coin reset at each layer, verification vs. binomial using TV/JS/W1, χ² goodness-of-fit with tail merging.
-- **Task 3 (Alternative distributions):** Exponential target via monotone logistic bias \(p_\ell=\sigma(a+b\ell)\) → \(\theta_\ell = 2\arcsin\sqrt{p_\ell}\); proper DTQW Hadamard walk with conditional shifts (CSWAP cascades), one-hot decode, and comparison against classical RW.
-- **Task 4 (Noise & optimization):** Aer noise model (depolarizing + thermal relaxation + readout), hardware-aware basis/transpile, simple error mitigation (multi-run averaging / ZNE demo), and quantitative impact via TV/JS/W1.
-- **Task 5 (Stats & uncertainty):** Minimal, consistent metrics on common support; bootstrap confidence for means/stds where needed.
-
-**Results.**  
-Call out key quantitative highlights (e.g., near-binomial match at n=12 with JS < 0.1; exponential fit distances; DTQW wider spread than classical; noise deltas). Mention figures/plots the reviewers can find in the notebook.
-
-**What’s Novel / Useful.**  
-Point to the paper-aligned one-hot design, stable discrete-distance metrics (TV, JS distance, Wasserstein-1 via CDFs), and a compact noise demo that’s easy to reproduce.
-
-**Limitations & Future Work.**  
-Briefly note limits (CSWAP depth, edge effects for small position registers, approximate noise model) and next steps (device execution via IBM Runtime, better error mitigation/calibration, larger n).
-
----
 
 ## Project Presentation Deck
 
