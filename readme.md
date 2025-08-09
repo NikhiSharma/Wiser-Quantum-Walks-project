@@ -8,7 +8,7 @@
 ## Team Members
 
 | Name | WISER Enrollment ID |
-|---|---|---|
+|---|---|
 | <Member 1 Full Name> | <WISER-XXXX> |
 | <Member 2 Full Name> | <WISER-XXXX> |
 | <Member 3 Full Name> | <WISER-XXXX> |
