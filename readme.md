@@ -10,7 +10,7 @@
 | Name | WISER Enrollment ID |
 |---|---|
 | Nikhila Yeturi | gst-RTmFG919DXao1Xe |
-| Pranav | gst-JeRpsGICDUrvULg |
+| Pranav M | gst-JeRpsGICDUrvULg |
 
 ---
 
