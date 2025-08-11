@@ -1,6 +1,6 @@
 # <Project Name>
 
-> Team: **<Team Name>**  
+> Team: **BIASQ**  
 > WISER Quantum Walks & Monte Carlo Challenge
 
 ---
